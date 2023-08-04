@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+    <meta name="keyword" content="stopwatch,reset stopwatch, start stopwatch, stop stopwatch,">
+    <meta name="author"content="Pranjali">
+
+    
+    <style>
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin-top: 50px;
+        font-family: sans-serif;
+        background-color:black;
+
+        
+      }
+      
+      .stopwatch {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 10px solid red;
+        height: 250px;
+        width: 350px;
+        background-color:aquamarine;
+        border-radius: 20px;
+
+       
+        
+      }
+      
+      #display {
+        font-size: 2rem;
+        margin-bottom: 10px;
+      }
+      
+      button {
+        padding: 8px 16px;
+        font-size: 1rem;
+        cursor: pointer;
+        
+      }
+      #start{
+        background-color: red;
+        color:white;
+
+      }
+      #stop{
+        background-color: blue;
+        color:white;
+      }
+      #reset{
+        background-color: green;
+        color: white;
+        
+      }
+      sub{
+        font-size: small;
+        font-weight: 700;
+      }
+      </style>
+</head>
+<body>
+    
+    
+   
+
+  <div class="stopwatch">
+    <h1>STOPWATCH</h1>
+
+    <div id="display">00<sub>Hr</sub> 00 <sub>Min </sub> 00<sub>Sec</sub> 00</div><br> 
+    
+<a >
+    <button id="start">Start</button>&nbsp;&nbsp;
+    <button id="stop" >Stop</button>&nbsp;&nbsp;
+    <button id="reset">Reset</button>
+</a>
+  </div>
+  
+</body>
+</html>
+
+
+
+</body>
+</html>
